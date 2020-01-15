@@ -1,5 +1,198 @@
 <html>
+    <!doctype html>
+    <html>
+    <head>
+    <meta charset="UTF-8">
+    <title>Ikea Mallisto</title>
+    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+    <style>
     
+    html {
+      box-sizing: border-box;
+    }
+    
+    
+    body {
+      font-family: Georgia, serif;
+      font-size: 100%;
+      background-color: #ffbdfd;
+      margin: 0;
+    }
+    
+    /* GRID LAYOUT */
+    #container {
+      display: grid;
+      grid-template-rows: auto auto 5em;
+      grid-template-columns: minmax(25em, 75em) 45em;
+      grid-template-areas: 
+        "banner banner"
+        "main hours"
+        "footer footer";
+         
+    }
+    header {
+      grid-area: banner;
+    }
+    main {
+      grid-area: main;
+    }
+    aside {
+      grid-area: hours;
+    }
+    
+    
+    
+    /* header styles */
+    header {
+      color: #f5aef2;
+      background-size: cover; 
+      text-align: center;
+      height: 5em;
+    }
+    header p {
+      font-style: italic;
+      font-size: 1.2em;
+      margin-top: -12px;
+    }
+    header h1 {
+      margin-top: 1.5em;
+    }
+    
+    /* nav styles */
+    nav, footer {
+      font-family: Georgia, serif;
+      background-color: #f5aef2;
+    }
+    
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      
+    }
+    nav ul li {
+      font-size: .8em;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+    }
+    nav ul li a { 	
+      display: block; 	
+      border: 1px solid; 	
+      border-radius: .5em; 	
+      padding: .5em 1em; 	
+      margin: .5em; 
+    } 
+    
+    
+    /* main "products" styles */
+    main {
+      font-family: Georgia, serif;
+      background-color: #f5aef2;
+      line-height: 1.8em;
+      color: #555;
+      padding: 1em;
+      border: double 4px #f5aef2;
+      border-radius: 25px;
+      margin: 2.5%; 
+    }
+    
+    /* aside "hours" styles */
+    aside {
+      font-family: Georgia, serif;
+      background-color: #f5aef2;
+      line-height: 1.8em;
+      color: #555;
+      padding: 1em;
+      border: double 4px #f5aef2;
+      border-radius: 25px;
+      margin: 2.5%; 
+      
+    }
+    /* misc styles */
+    footer {
+      color: #6b6b6b;
+      text-align: center;
+      font-size: .8em;
+      padding: 1em;
+    }
+    
+    h2 {
+      font-family: Georgia, serif;
+    }
+    
+    
+    </style>
+    </head>
+    
+    <body>
+    <div id="container">
+    
+    <header>
+    <nav>
+      <ul>
+        <li><a href="">Menu</a></li>
+        <li><a href="www.ikea.com">About</a></li>
+        <li><a href="Palautelomake.htm">Palaute</a></li>
+      </ul>
+    </nav>  
+    </header>
+    <main>
+      <h2>Ikean Mallisto</h2>
+            <picture>
+            <source media="(min-width: 480px)" srcset="images/Olohuone.jpg 800w, images/Olohuone.jpg 1200w" sizes="80vw">
+            <img src="images/Olohuone.jpg" alt="Olohuoneen sisustus">
+            </picture>
+      <p>Mallistossa on 9 500 tuotetta, ja eri myymälöissä valitaan siitä osa. Perusmallisto on kaikkialla sama. Tuotekuvastoa painettiin vuonna 2013 208 miljoonaa kappaletta 59 eri versiona 30 kielelle. Tavarantoimittajia on 1 018 kpl 53 maasta. Ikean <a href="https://www.ikea.com/fi/fi/cat/huonekalut-fu001/" target="_blank">huonekalut</a> ovat tiiviisti pakattuja ja itsekoottavia helpon kuljetuksen ja vähäisen varastotilan tarpeen vuoksi.
+            Vuonna 2011 myynnistä 79 % oli Euroopassa, 14 % Pohjois-Amerikassa sekä 7 % Venäjällä, Aasiassa ja Australiassa. Hankinnoista 63 % tapahtui Euroopasta, 33 % Aasiasta ja 4 % Pohjois-Amerikasta.</p>
+    
+    </main>
+    
+    <aside>
+        <fieldset>
+                <legend> Valitse lempihuonekalusi (voit valita useamman)</legend>
+                        <p><input type="checkbox" name="huonekalut" value="lipasto">Lipasto</p>
+                        <p><input type="checkbox" name="huonekalut" value="nojatuoli">Nojatuoli</p>
+                        <p><input type="checkbox" name="huonekalut" value="ruokapöytä">Ruokapöytä</p>
+                        <p><input type="checkbox" name="huonekalut" value="sohva">Sohva</p>
+                        <p><input type="checkbox" name="huonekalut" value="sänky">Sänky</p>
+                        <p><input type="checkbox" name="huonekalut" value="sohvapöytä">Sohvapöytä</p>
+                        <p><input type="checkbox" name="huonekalut" value="sohvasänky">Sohvasänky</p>
+                        <p><input type="checkbox" name="huonekalut" value="vaatekaappi">Vaatekaappi</p>
+                        <p><input type="checkbox" name="huonekalut" value="vitriini">Vitriini</p>
+            </fieldset>
+            
+            <fieldset>
+                <p><legend>Valitse huone, jonka haluat sisustaa seuraavaksi:<input type="text" list="huoneet" name="huoneet"></legend></p>
+                <p><datalist id="huoneet">
+                    <option value="Keittiö">
+                    <option value="Lastenhuone">
+                    <option value="Makuuhuone">
+                    <option value="Olohuone">
+                    <option value="Pelihuone">
+                    <option value="Työhuone">
+                    <option value="Vaatehuone">
+                    <option value="WC">
+                </datalist></p>
+            </fieldset>
+            
+            <fieldset>
+                <p><legend>Milloin olet suunnitellut seuraavan IKEA-reissun?:</legend></p>
+                <p><input type="date" name="name" value="2019-10-28"></p>
+            </fieldset>
+            
+            <fieldset>
+                <legend>Kuinka tyytyväinen olet ollut IKEAn huonekaluihin? (asteikolla 0-100):</legend>
+                <label><input type="range" name="tyytyväisyys" min="0" max="100" step="10"></label>
+            </fieldset>
+            
+    </aside>
+    <p><a href="Ikea_home.htm">Takaisin kotivalikkoon</a></p>
+    </div>
+    </body>
+    </html>
+      
 
 
 </html>
