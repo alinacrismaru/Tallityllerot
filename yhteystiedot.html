@@ -1,22 +1,79 @@
+<!DOCTYPE html>
 <html>
-<body>
+    <head>
+    <meta charset="UTF-8">
+    <title>Tmi Ida Suontama</title>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Etusivu</a></li><br>
-        <li><a href="yritys.html">Yritys</a></li><br>
-        <li><a href="tuotteet.html">Tuotteet</a></li><br>
-        <li><a href="hinnasto.html">Hinnasto</a></li><br>
-        <li><a href="yhteystiedot.html">Yhteystiedot</a></li>
-    </ul>
-</nav> 
+    <style>
+  
+  body {
+  font-family: "Lato", sans-serif;
+}
 
-<h1>Yhteystiedot</h1>
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white-space nowrap;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: 5px #40bf80;
+  border-style: solid;
+}
 
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
 
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
 
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 
-</body>
+.header{
+  text-align: center;
+}
 
-</html>
+h2 {
+    text-align: center;
+}
+
+    </style>
+    </head>
+    <body>
+    
+    <div class="header">
+        <h1>Tmi Ida Suontama</h1>
+    </div>
+            
+    
+    
+    <div class="sidenav">
+        <a href="index.html">Etusivu</a><br>
+        <a href="yritys.html">Yritys</a><br>
+        <a href="tuotteet.html">Tuotteet</a><br>
+        <a href="hinnasto.html">Hinnasto</a><br>
+        <a href="yhteystiedot.html">Yhteystiedot</a>
+    </div>
+
+    <h2>Yhteystiedot</h2>
+
+    </body>
+  </html>
