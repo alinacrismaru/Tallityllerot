@@ -1,133 +1,75 @@
+<!DOCTYPE html>
 <html>
     <head>
     <meta charset="UTF-8">
-    <title>Ikea Mallisto</title>
-    <link href="https://fonts.googleapis.com/css?family=Stint+Ultra+Expanded" rel="stylesheet">
+    <title>Tmi Ida Suontama</title>
+
     <style>
-    
-    html {
-      box-sizing: border-box;
-    }
-    
-    
-    body {
-      font-family: Georgia, serif;
-      font-size: 100%;
-      background-color: #ffffff;
-      margin: 0;
-    }
-    
-    /* GRID LAYOUT */
-    #container {
-      display: grid;
-      grid-template-rows: auto auto 10em;
-      grid-template-columns: minmax(10em, 20em) 10em;
-    }    
-    
-    /* header styles */
-    header {
-      color: #7ccca0;
-      background-size: cover; 
-      text-align: center;
-      height: 5em;
-    }
-    header p {
-      font-style: italic;
-      font-size: 1.2em;
-      margin-top: -12px;
-    }
-    header h1 {
-      margin-top: 1.5em;
-    }
-    
-    /* nav styles */
-    nav, footer {
-      font-family: Georgia, serif;
-      background-color: #7ccca0;
-    }
-    
-    nav ul {
-      margin: 0;
-      padding: 0;
-      list-style-type: none;
-      display: flex;
-      justify-content: center;
-      
-    }
-    nav ul li {
-      font-size: .8em;
-      text-transform: uppercase;
-      letter-spacing: .2em;
-    }
-    nav ul li a { 	
-      display: block; 	
-      border: 1px solid; 	
-      border-radius: .5em; 	
-      padding: .5em 1em; 	
-      margin: .5em; 
-    } 
-    
-    
-    /* main "products" styles */
-    main {
-      font-family: Georgia, serif;
-      background-color: #ffffff;
-      line-height: 1.8em;
-      color: #000000;
-      padding: 1em;
-      border: double 5px #7ccca0;
-      border-radius: 25px;
-      margin: 2.5%; 
-    }
-    
-    /* aside "hours" styles */
-    aside {
-      font-family: Georgia, serif;
-      background-color: #ffffff;
-      line-height: 1.8em;
-      color: #000000;
-      padding: 1em;
-      border: double 5px #7ccca0;
-      border-radius: 25px;
-      margin: 2.5%; 
-      
-    }
-    
-    h2 {
-      font-family: Georgia, serif;
-    }
-    
-    
+  
+  body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white-space nowrap;
+  overflow-x: hidden;
+  padding-top: 20px;
+  border: 5px #40bf80;
+  border-style: solid;
+
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; 
+  font-size: 28px; 
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.header{
+  text-align: center;
+}
+
     </style>
     </head>
-    
     <body>
-    <div id="container">
     
-    <header>
-        <h2>Tmi Ida Suontama</h2>
-            <picture>
-            <source media="(min-width: 480px)" srcset="images/Olohuone.jpg 800w, images/Olohuone.jpg 1200w" sizes="80vw">
-            <img src="" alt="">
-            </picture>
-      <p>.</p>
-    </header>
-    
-    <main>
-        <nav>
-            <ul>
-              <li><a href="Etusivu">Etusivu</a></li><br>
-              <li><a href="Yritys">Yritys</a></li><br>
-              <li><a href="Tuotteet">Tuotteet</a></li><br>
-              <li><a href="Hinnasto">Hinnasto</a></li><br>
-              <li><a href="Galleria">Galleria</a></li><br>
-              <li><a href="Yhteystiedot">Yhteystiedot</a></li>
-            </ul>
-          </nav>  
-    </main>
-    <p><a</a></p>
+    <div class="header">
+        <h1>Tmi Ida Suontama</h1>
     </div>
-    </body>     
+            
+    
+    
+    <div class="sidenav">
+        <a href="Etusivu">Etusivu</a><br>
+        <a href="Yritys">Yritys</a><br>
+        <a href="Tuotteet">Tuotteet</a><br>
+        <a href="Hinnasto">Hinnasto</a><br>
+        <a href="Galleria">Galleria</a><br>
+        <a href="Yhteystiedot">Yhteystiedot</a>
+    </div>
 
-
-</html>
+    </body>
+  </html>
