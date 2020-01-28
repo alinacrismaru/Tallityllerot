@@ -29,6 +29,7 @@
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+  border: 15px double lightgreen;
 }
 
 sidenav a:hover {
