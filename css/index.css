@@ -1,6 +1,7 @@
-footer {
+  footer {
     text-align: center;
     padding-top: 1em;
+    font-family: 'Courier new';
   }
 
   footer img {
@@ -21,7 +22,7 @@ footer {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: white-space nowrap;
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 50px;
@@ -33,6 +34,7 @@ footer {
 .sidenav a {
   padding: 8px 8px 6px 32px;
   text-decoration: none;
+  font-family: 'Courier New';
   font-size: 20px;
   color: black;
   display: block;
@@ -51,8 +53,28 @@ footer {
 }
 
 .main {
-  transition: margin-left .5s;
-  padding: 16px;
+    text-align: center;
+    padding-top: 1em;
+}
+
+h2
+{ 
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier new';
+
+}
+
+p
+{
+    font-size: 1em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Courier new';
+
 }
 
 @media screen and (max-height: 450px) {
