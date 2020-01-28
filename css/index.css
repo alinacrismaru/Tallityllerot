@@ -25,18 +25,17 @@
   text-align: center;
   color: black;
   font-size: 36px;
-  background-color: #ffffff;
+  background-color: lightgreen;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
-  border: 15px double lightgreen;
 }
 
 sidenav a:hover {
   color: #f1f1f1;
 }
 .sidenav .closebtn {
-  position absolute;
+  position: absolute;
   top: 0;
   right: 25px;
   font-size: 36px;
