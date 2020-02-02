@@ -4,100 +4,63 @@
     <meta charset="UTF-8">
     <title>Tmi Ida Suontama</title>
 
-    <style>
+<link rel="stylesheet" href="css/index.css" />
 
-  footer {
-    text-align: center;
-    padding-top: 1em;
-  }
-
-  footer img {
-    width: 30px;
-    height: 30px;
-    margin-left: .5em;
-    margin-right: .5em;
-  }
-  
-  body {
-  font-family: "Lato", sans-serif;
-}
-
-.sidenav {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: white-space nowrap;
-  overflow-x: hidden;
-  padding-top: 20px;
-  border: 5px #40bf80;
-  border-style: solid;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px; 
-  font-size: 28px; 
-  padding: 0px 10px;
-}
-
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-
-.header{
-  text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-    </style>
     </head>
+
     <body>
+
     
-    <div class="header">
-        <h1>Tmi Ida Suontama</h1>
-    </div>
-            
-    
-    <div class="sidenav">
+    <div id="banner">
+      <img src="pics/Banneri luonnostelma.jpg" .style.width = "1400px" .style.length = "400px"><br><br><br><br><br>
+    </div> 
+  
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
         <a href="index.html">Etusivu</a><br>
         <a href="yritys.html">Yritys</a><br>
         <a href="tuotteet.html">Tuotteet</a><br>
         <a href="hinnasto.html">Hinnasto</a><br>
-    </div>
+        </div>
 
-    <h2>Hinnasto</h2>
+    <div id="main">
+      <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      <h2> Hinnasto</h2><br><br><br><br>
+     
+    </div> 
 
-    <footer>
-      <h2> Yhteystiedot </h2>
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("footer").style.marginLeft = "250px";
+          document.getElementById("banner").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+          document.getElementById("footer").style.marginLeft = "0";
+          document.getElementById("banner").style.marginLeft = "0";
+      }
+     
+      </script>
+
+    <div id="footer">
+      <h3> Yhteystiedot </h3><br>
       <p>Ida Suontama<br>
         050 3625242<br>
-        Kohmontie, 20540 Turku</p>
-
-      <a href="https://www.instagram.com/tmi_idasuontama"><img src="icons/instagram.svg" alt="instagram"></a>
-      <a href="https://www.facebook.com/Tmi-Ida-Suontama-2234153559942791/"><img src="icons/facebook.svg" alt="facebook"></a>
-        
-      </p>
-        
-    </footer>
+        Kohmontie, 20540 Turku</p><br>
 
     
+
+    
+      <h3><a href="https://www.instagram.com/tmi_idasuontama" target="_blank"><img src="icons/instagram.svg" style ="width: 30px; length: 30px;" alt="instagram"></a>
+      <a href="https://www.facebook.com/Tmi-Ida-Suontama-2234153559942791/" target="_blank"><img src="icons/facebook.svg" style ="width: 30px; length: 30px;" alt="facebook"></a></h3>
+    
+    </div>
+        
+    
+
     </body>
   </html>
