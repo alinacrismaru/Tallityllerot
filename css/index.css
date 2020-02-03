@@ -1,7 +1,8 @@
-  .footer {
+  #footer {
     text-align: center;
-    padding-top: 1.5em;
     font-family: 'Courier new';
+    transition: margin-left 0.5s;
+    padding: 16px;  
   }
 
   body {
@@ -49,9 +50,7 @@
   transition: margin-left .5s;
   padding: 16px;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+@media screen  {
 }
 h2
 { 
@@ -82,4 +81,10 @@ p
 
 #banner {
   text-align: center;
+  transition: margin-left .5s;
+}
+
+.left {
+  float: left;
+  width: 20%;
 }
