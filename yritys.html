@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-    <head>
-    <meta charset="UTF-8">
-    
 
-<link rel="stylesheet" href="css/index.css" />
+    <head>
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial scale=1">
+
+    <title>Tuotteet</title>
+
+      <link rel="stylesheet" href="css/index.css" />
 
     </head>
 
     <body>
 
-      <div id="banner">
-        <img src="pics/Banneri luonnostelma.jpg" .style.width = "1400px" .style.length = "400px"><br><br><br><br><br>
-      </div> 
     
-      <div id="mySidenav" class="sidenav">
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
-          <a href="index.html">Etusivu</a><br>
-          <a href="yritys.html">Yritys</a><br>
-          <a href="tuotteet.html">Tuotteet</a><br>
-          <a href="hinnasto.html">Hinnasto</a><br>
-          </div>
+    <div id="banner">
+      <img src="pics/Banneri luonnostelma.jpg" style="max-width:100%;height:auto;"><br><br><br><br><br>
+    </div> 
   
-      <div id="main">
-        <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
-
-<div class="header">
-        <h3>Yritys<br><br></h3>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+        <a href="index.html">Etusivu</a><br>
+        <a href="yritys.html">Yritys</a><br>
+        <a href="tuotteet.html">Tuotteet</a><br>
+        <a href="hinnasto.html">Hinnasto</a><br>
     </div>
 
-    <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br> 
-      Tai kenties sisäänratsastajaa nuorelle hevoselle?<br>
-      Tulit oikeaan paikkaan!<br>
-      Olen Ida, vuonna 2017 ratsuhevosten peruskouluttajaksi<br> 
-      valmistunut ja estehevosiin painottuva ratsastaja.<br> 
-      Ennen yrittäjyyttä olen kerryttänyt työkokemustani sekä Suomessa että ulkomailla,<br>
-      työskennellen groomina, ratsuttajana sekä tallityöntekijänä.<br>
-      Pidän Turun seudulla ratsastustunteja niin sileällä kuin esteilläkin,<br> 
-      painottaen istuntalähtöistä työskentelyä ja edeten ratsukon ehdoilla.<br> 
-      Ratsutuksessa tarjoan palveluita sisäänratsastuksesta kilpailuttamiseen.<br><br><br>
-      </p>
+    <div id="main">
+      <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+      
+      <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br> 
+        Tai kenties sisäänratsastajaa nuorelle hevoselle?<br>
+        Tulit oikeaan paikkaan!<br>
+        Olen Ida, vuonna 2017 ratsuhevosten peruskouluttajaksi<br> 
+        valmistunut ja estehevosiin painottuva ratsastaja.<br> 
+        Ennen yrittäjyyttä olen kerryttänyt työkokemustani sekä Suomessa että ulkomailla,<br>
+        työskennellen groomina, ratsuttajana sekä tallityöntekijänä.<br>
+        Pidän Turun seudulla ratsastustunteja niin sileällä kuin esteilläkin,<br> 
+        painottaen istuntalähtöistä työskentelyä ja edeten ratsukon ehdoilla.<br> 
+        Ratsutuksessa tarjoan palveluita sisäänratsastuksesta kilpailuttamiseen.<br><br><br>
+        </p>
+    </div> 
 
     <script>
       function openNav() {
@@ -67,12 +67,31 @@
     
 
     
-      <h3><a href="https://www.instagram.com/tmi_idasuontama" target="_blank"><img src="icons/instagram.svg" style ="width: 30px; length: 30px;" alt="instagram"></a>
-      <a href="https://www.facebook.com/Tmi-Ida-Suontama-2234153559942791/" target="_blank"><img src="icons/facebook.svg" style ="width: 30px; length: 30px;" alt="facebook"></a></h3>
+      <h3><a href="https://www.instagram.com/tmi_idasuontama" target="_blank"><img src="icons/instagram.svg" style ="width: 30px;" alt="instagram"></a>
+      <a href="https://www.facebook.com/Tmi-Ida-Suontama-2234153559942791/" target="_blank"><img src="icons/facebook.svg" style ="width: 30px;" alt="facebook"></a></h3>
     
     </div>
         
+    <script>
+      function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+          document.getElementById("footer").style.marginLeft = "250px";
+          document.getElementById("banner").style.marginLeft = "250px";
+      }
+      
+      function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+          document.getElementById("main").style.marginLeft = "0";
+          document.getElementById("footer").style.marginLeft = "0";
+          document.getElementById("banner").style.marginLeft = "0";
+      }
+     
+      </script>
     
 
     </body>
   </html>
+
+    
+
