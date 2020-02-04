@@ -4,6 +4,7 @@
     transition: margin-left 0.5s;
     padding: 16px;  
   }
+<<<<<<< HEAD
 #yritys {
   text-align: center;
   font-family: 'Courier new';
@@ -11,6 +12,17 @@
   padding: 16px;
   right: 50px;
 }
+=======
+
+  #footer img {
+    width: 30px;
+    height: 30px;
+    margin-left: .1em;
+    margin-right: .1em;
+  
+  }
+
+>>>>>>> f4ad6fe4633633e7c529f04c421f689fa3ee5cbd
   body {
   font-family: "Courier new";
 }
@@ -57,6 +69,7 @@
   transition: margin-left .5s;
   padding: 16px;
 }
+<<<<<<< HEAD
 #yritys {
   transition: margin-left .5s;
   padding: 16px;
@@ -64,6 +77,15 @@
 #tuotteet {
   transition: margin-left .5s;
   padding: 16px;
+=======
+
+.clearfix {
+  overflow: auto;
+}
+
+.img1 {
+  float: right;
+>>>>>>> f4ad6fe4633633e7c529f04c421f689fa3ee5cbd
 }
 #hinnasto {
   transition: margin-left .5s;
