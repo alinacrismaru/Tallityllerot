@@ -4,7 +4,13 @@
     transition: margin-left 0.5s;
     padding: 16px;  
   }
-
+#yritys {
+  text-align: center;
+  font-family: 'Courier new';
+  transition: margin-left 0.5s;
+  padding: 16px;
+  right: 50px;
+}
   body {
   font-family: "Courier new";
 }
@@ -38,6 +44,7 @@
 
 .sidenav a:hover {
   color: #f1f1f1;
+  position: fixed;
 }
 .sidenav .closebtn {
   position: absolute;
@@ -50,9 +57,19 @@
   transition: margin-left .5s;
   padding: 16px;
 }
-img {
-  float: right;
+#yritys {
+  transition: margin-left .5s;
+  padding: 16px;
 }
+#tuotteet {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+#hinnasto {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
 
 h2
 { 
