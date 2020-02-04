@@ -5,6 +5,14 @@
     padding: 16px;  
   }
 
+  #footer img {
+    width: 30px;
+    height: 30px;
+    margin-left: .1em;
+    margin-right: .1em;
+  
+  }
+
   body {
   font-family: "Courier new";
 }
@@ -50,7 +58,12 @@
   transition: margin-left .5s;
   padding: 16px;
 }
-img {
+
+.clearfix {
+  overflow: auto;
+}
+
+.img1 {
   float: right;
 }
 
