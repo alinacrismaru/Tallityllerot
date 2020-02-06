@@ -2,7 +2,7 @@
 <html>
 
     <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial scale=1">
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Tmi Ida Suontama</title>
 
@@ -18,15 +18,18 @@
     </div> 
   
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#etusivu">Etusivu</a><br>
         <a href="#yritys">Yritys</a><br>
         <a href="#tuotteet">Tuotteet</a><br>
         <a href="#hinnasto">Hinnasto</a><br>
     </div>
 
+    <div class="sticky">
+        <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776;</a></span>
+    </div>
+
     <div id="main">
-      <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
 
       <h2 id=etusivu>Etusivu</h2><br><br>
       <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br><br> 
@@ -108,8 +111,10 @@
           document.getElementById("banner").style.marginLeft = "0";
           document.getElementById("yritys").style.marginLeft = "0";
           document.getElementById("hinnasto").style.marginLeft = "0";
-          document.getElementById("tuotteet").style.marginLeft = "0";
+          document.getElementById("tuotteet").style.marginLeft = "0";   
       }
+
+
       </script>
     
 
