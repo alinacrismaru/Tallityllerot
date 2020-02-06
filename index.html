@@ -21,13 +21,13 @@
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
         <a href="#etusivu">Etusivu</a><br>
         <a href="#yritys">Yritys</a><br>
-        <a href="#tuotteet">Tuotteet</a><br>
+        <a href="#palvelut">Tuotteet</a><br>
         <a href="#hinnasto">Hinnasto</a><br>
         <a href="#footer">Yhteystiedot</a>
     </div>
 
    <div class="sticky">
-    <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+    <span style="font-size: 30px; cursor:pointer" onclick="openNav()" onclick="closeNav()">&#9776; </span>
    </div>
 
       <h2 id=etusivu>Etusivu</h2><br><br>
@@ -52,7 +52,7 @@
 
     </div> 
 
-    <div id="tuotteet">
+    <div id="palvelut">
     <h2>Palvelut</h2><br>
 
     <h4>Ratsastustunnit</h4>
@@ -158,7 +158,8 @@
           document.getElementById("banner").style.marginLeft = "250px";
           document.getElementById("yritys").style.marginLeft = "250px";
           document.getElementById("hinnasto").style.marginLeft = "250px";
-          document.getElementById("tuotteet").style.marginLeft = "250px";
+          document.getElementById("palvelut").style.marginLeft = "250px";
+          document.getElementsByClassName("sticky").style.marginLeft = "250px";
       }
       
       function closeNav() {
@@ -168,7 +169,8 @@
           document.getElementById("banner").style.marginLeft = "0";
           document.getElementById("yritys").style.marginLeft = "0";
           document.getElementById("hinnasto").style.marginLeft = "0";
-          document.getElementById("tuotteet").style.marginLeft = "0";
+          document.getElementById("palvelut").style.marginLeft = "0";
+          document.getElementsByClassName("sticky").style.marginLeft = "0";
       }
       </script>
     

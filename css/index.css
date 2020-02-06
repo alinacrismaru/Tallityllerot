@@ -4,6 +4,8 @@
   transition: margin-left 0.5s;
   padding: 16px;  
   background-color: #b9db8f;
+  border-bottom: #b9db8f;
+  border-bottom-style: double;
 }
 
 #footer img {
@@ -15,6 +17,7 @@
 
 body {
   font-family: 'Open sans';
+  transition: margin-left 0.5s;
 }
 
 .sidenav {
@@ -97,7 +100,7 @@ div.sticky {
   border-bottom-style: double;
 }
 
-#tuotteet {
+#palvelut {
   text-align: center;
   font-family: 'Courier new';
   transition: margin-left 0.5s;
