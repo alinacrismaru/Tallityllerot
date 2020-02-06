@@ -2,7 +2,7 @@
 <html>
 
     <head>
-      <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+      <meta charset="UTF-8" name="viewport" content="width=device-width, initial scale=1">
 
     <title>Tmi Ida Suontama</title>
 
@@ -18,7 +18,7 @@
     </div> 
   
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
         <a href="#etusivu">Etusivu</a><br>
         <a href="#yritys">Yritys</a><br>
         <a href="#tuotteet">Tuotteet</a><br>
@@ -26,11 +26,8 @@
         <a href="#footer">Yhteystiedot</a>
     </div>
 
-    <div class="sticky">
-        <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776;</a></span>
-    </div>
-
-    <div id="main">
+  
+      <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
 
       <h2 id=etusivu>Etusivu</h2><br><br>
       <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br><br> 
@@ -111,6 +108,29 @@
       20-50€ (riippuen klippausmäärästä)</p>
   </div> 
 
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">Etunimi</label>
+      <input type="text" id="fname" name="firstname" placeholder="Etunimi">
+  
+      <label for="lname">Sukunimi</label>
+      <input type="text" id="lname" name="lastname" placeholder="Sukunimi">
+  
+      <label for="email">Sähköpostiosoite</label>
+      <input type="text" id="email" name="email" placeholder="Sähköpostiosoite">
+
+      <label for="pnumber">Puhelinnumero</label>
+      <input type="text" id="pnumber" name="phonenumber" placeholder="Puhelinnumero">
+  
+      <label for="subject">Aihe</label>
+      <textarea id="subject" name="subject" placeholder="Kirjoita jotain.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Lähetä">
+  
+    </form>
+  </div>
+
 
     <div id="footer">
       <h3> Yhteystiedot </h3><br>
@@ -118,9 +138,9 @@
         050 3625242<br>
         Kohmontie, 20540 Turku</p><br>
 
-    
 
-    
+
+        
       <h3><a href="https://www.instagram.com/tmi_idasuontama" target="_blank"><img src="icons/instagram.svg" style ="width: 30px;" alt="instagram"></a>
       <a href="https://www.facebook.com/Tmi-Ida-Suontama-2234153559942791/" target="_blank"><img src="icons/facebook.svg" style ="width: 30px;" alt="facebook"></a></h3>
     
@@ -144,10 +164,8 @@
           document.getElementById("banner").style.marginLeft = "0";
           document.getElementById("yritys").style.marginLeft = "0";
           document.getElementById("hinnasto").style.marginLeft = "0";
-          document.getElementById("tuotteet").style.marginLeft = "0";   
+          document.getElementById("tuotteet").style.marginLeft = "0";
       }
-
-
       </script>
     
 
