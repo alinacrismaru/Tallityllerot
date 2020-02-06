@@ -25,7 +25,7 @@
         <a href="#hinnasto">Hinnasto</a><br>
     </div>
 
-    <div id="main">
+  
       <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
 
       <h2 id=etusivu>Etusivu</h2><br><br>
@@ -74,6 +74,29 @@
       
       Tallitöiden hinta sovitaan erikseen.</p><br>
   </div> 
+
+  <div class="container">
+    <form action="action_page.php">
+  
+      <label for="fname">Etunimi</label>
+      <input type="text" id="fname" name="firstname" placeholder="Etunimi">
+  
+      <label for="lname">Sukunimi</label>
+      <input type="text" id="lname" name="lastname" placeholder="Sukunimi">
+  
+      <label for="email">Sähköpostiosoite</label>
+      <input type="text" id="email" name="email" placeholder="Sähköpostiosoite">
+
+      <label for="pnumber">Puhelinnumero</label>
+      <input type="text" id="pnumber" name="phonenumber" placeholder="Puhelinnumero">
+  
+      <label for="subject">Aihe</label>
+      <textarea id="subject" name="subject" placeholder="Kirjoita jotain.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Lähetä">
+  
+    </form>
+  </div>
 
 
     <div id="footer">
