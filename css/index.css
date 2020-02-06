@@ -3,6 +3,7 @@
   font-family: 'Courier new';
   transition: margin-left 0.5s;
   padding: 16px;  
+  background-color: #b9db8f;
 }
 
 #footer img {
@@ -66,10 +67,12 @@ div.sticky {
 #main {
   transition: margin-left .5s;
   padding: 16px;
+  border-bottom: #b9db8f;
+  border-bottom-style: double;
 }
 
 .clearfix {
-  overflow: auto;
+  overflow-y: auto;
 }
 
 .img1 {
@@ -77,18 +80,30 @@ div.sticky {
 }
 
 #yritys {
-  transition: margin-left .5s;
-  padding: 16px;
+  text-align: center;
+  font-family: 'Courier new';
+  transition: margin-left 0.5s;
+  padding: 16px; 
+  border-bottom: #b9db8f;
+  border-bottom-style: double;
 }
 
 #hinnasto {
-  transition: margin-left .5s;
-  padding: 16px;
+  text-align: center;
+  font-family: 'Courier new';
+  transition: margin-left 0.5s;
+  padding: 16px; 
+  border-bottom: #b9db8f;
+  border-bottom-style: double;
 }
 
 #tuotteet {
-  transition: margin-left .5s;
-  padding: 16px;
+  text-align: center;
+  font-family: 'Courier new';
+  transition: margin-left 0.5s;
+  padding: 16px; 
+  border-bottom: #b9db8f;
+  border-bottom-style: double;
 }
 
 h2
@@ -119,7 +134,7 @@ h4 {
 p {
   font-size: 1em;
   margin: 0;
-  padding: 0;
+  padding: 16px;
   text-align: center;
   font-family: 'Courier new';
 }
