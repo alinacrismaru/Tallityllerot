@@ -25,8 +25,9 @@
         <a href="#hinnasto">Hinnasto</a><br>
     </div>
 
-  
-      <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+   <div class="sticky">
+    <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+   </div>
 
       <h2 id=etusivu>Etusivu</h2><br><br>
       <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br><br> 
@@ -76,22 +77,25 @@
   </div> 
 
   <div class="container">
-    <form action="action_page.php">
+    <form id="contact" action="" method="post">
+      <h3>Ota yhteyttä</h3>
+      <h4>blaablaa</h4>
   
-      <label for="fname">Etunimi</label>
-      <input type="text" id="fname" name="firstname" placeholder="Etunimi">
-  
-      <label for="lname">Sukunimi</label>
-      <input type="text" id="lname" name="lastname" placeholder="Sukunimi">
-  
-      <label for="email">Sähköpostiosoite</label>
-      <input type="text" id="email" name="email" placeholder="Sähköpostiosoite">
-
-      <label for="pnumber">Puhelinnumero</label>
-      <input type="text" id="pnumber" name="phonenumber" placeholder="Puhelinnumero">
-  
-      <label for="subject">Aihe</label>
-      <textarea id="subject" name="subject" placeholder="Kirjoita jotain.." style="height:200px"></textarea>
+      <fieldset>
+        <input type="text" id="fname" name="firstname" placeholder="Etunimi">
+      </fieldset>
+      <fieldset>
+        <input type="text" id="lname" name="lastname" placeholder="Sukunimi">
+      </fieldset>
+      <fieldset>
+        <input type="text" id="email" name="email" placeholder="Sähköpostiosoite">
+      </fieldset>
+      <fieldset>
+        <input type="text" id="pnumber" name="phonenumber" placeholder="Puhelinnumero">
+      </fieldset>
+      <fieldset>
+        <textarea id="subject" name="subject" placeholder="Kirjoita jotain.." style="height:200px"></textarea>
+      </fieldset>
   
       <input type="submit" value="Lähetä">
   
