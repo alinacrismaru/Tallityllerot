@@ -1,19 +1,18 @@
-  #footer {
-    text-align: center;
-    font-family: 'Courier new';
-    transition: margin-left 0.5s;
-    padding: 16px;  
-  }
+#footer {
+  text-align: center;
+  font-family: 'Courier new';
+  transition: margin-left 0.5s;
+  padding: 16px;  
+}
 
-  #footer img {
-    width: 30px;
-    height: 30px;
-    margin-left: .1em;
-    margin-right: .1em;
-  
-  }
+#footer img {
+  width: 30px;
+  height: 30px;
+  margin-left: .1em;
+  margin-right: .1em;
+}
 
-  body {
+body {
   font-family: 'Open sans';
 }
 
@@ -32,7 +31,7 @@
   transition: 0.5s;
   padding-top: 60px;
   outline-style: outset;
-  outline-color: #b9db8f;
+  outline-color: #b9db8f;  
 }
 
 .sidenav a {
@@ -45,9 +44,10 @@
 }
 
 .sidenav a:hover {
-  color: #f1f1f1;
-  position: fixed;
+  color: black;
+  font-weight: bold;
 }
+
 .sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -55,6 +55,14 @@
   font-size: 36px;
   margin-left: 50px;
 }
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  padding: 30px;
+}
+
 #main {
   transition: margin-left .5s;
   padding: 16px;
@@ -83,40 +91,37 @@
   padding: 16px;
 }
 
-
-
 h2
 { 
-    font-size: 2em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Raleway';
-
+  font-size: 2em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Raleway';
 }
 
 h3 {
   font-size: 1.5em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Courier new';
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier new';
 }
+
 h4 {
   font-size: 1.25em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Courier new';
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier new';
 }
-p
-{
-    font-size: 1em;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-family: 'Courier new';
 
+p {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Courier new';
 }
 
 #banner {
