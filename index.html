@@ -27,15 +27,15 @@
     </div>
 
    <div class="sticky">
-    <span style="font-size: 30px; cursor:pointer" onclick="openNav()" onclick="closeNav()">&#9776; </span>
+    <span style="font-size: 30px; cursor:pointer" onclick="openNav()">&#9776; </span>
    </div>
-
+      <div id="main">
       <h2 id=etusivu>Etusivu</h2><br><br>
       <p>Etsitkö ammattitaitoista ja kannustavaa valmentajaa/ratsuttajaa harrastamisen tueksi?<br><br> 
         Tai kenties sisäänratsastajaa nuorelle hevoselle?<br><br><br>
         Tulit oikeaan paikkaan!</p><br>
     </div>
-
+  
    <div id="yritys" class="clearfix">
       
     <h2>Yritys</h2><br><br>
@@ -112,7 +112,7 @@
   <div class="container">
     <form id="contact" action="" method="post">
       <h3>Ota yhteyttä</h3>
-      <h4>blaablaa</h4>
+      <h4></h4>
   
       <fieldset>
         <input type="text" id="fname" name="firstname" placeholder="Etunimi">
@@ -159,7 +159,6 @@
           document.getElementById("yritys").style.marginLeft = "250px";
           document.getElementById("hinnasto").style.marginLeft = "250px";
           document.getElementById("palvelut").style.marginLeft = "250px";
-          document.getElementsByClassName("sticky").style.marginLeft = "250px";
       }
       
       function closeNav() {
@@ -170,7 +169,6 @@
           document.getElementById("yritys").style.marginLeft = "0";
           document.getElementById("hinnasto").style.marginLeft = "0";
           document.getElementById("palvelut").style.marginLeft = "0";
-          document.getElementsByClassName("sticky").style.marginLeft = "0";
       }
       </script>
     

@@ -17,7 +17,6 @@
 
 body {
   font-family: 'Open sans';
-  transition: margin-left 0.5s;
 }
 
 .sidenav {
@@ -75,7 +74,7 @@ div.sticky {
 }
 
 .clearfix {
-  overflow-y: auto;
+  overflow: auto;
 }
 
 .img1 {
@@ -160,7 +159,7 @@ p {
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
 
 #contact {
-	background:#F9F9F9;
+  background:#F9F9F9;
 	padding:25px;
 	margin:50px 0;
 }
@@ -174,7 +173,7 @@ p {
 
 #contact h4 {
 	margin:5px 0 15px;
-	display:block;
+	display: block;
 	font-size:13px;
 }
 
@@ -197,8 +196,8 @@ fieldset {
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
 }
 
 #contact textarea {
@@ -217,7 +216,6 @@ input[type=text], select, textarea {
   resize: vertical  
 }
 
-
 input[type=submit] {
   background-color: lightgrey;
   color: black;
@@ -234,8 +232,8 @@ input[type=submit]:hover {
 .container {
 	max-width:400px;
 	width:100%;
-	margin:0 auto;
-	position:relative;
+  margin:0 auto;
+  position: fixed;
   background-color: #f2f2f2;
 }
 /*Yhteydenottolaatikko loppuu tähän*/
