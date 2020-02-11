@@ -1,6 +1,6 @@
 #footer {
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
   transition: margin-left 0.5s;
   padding: 16px;  
   background-color: #b9db8f;
@@ -16,7 +16,7 @@
 }
 
 body {
-  font-family: 'Open sans';
+  font-family: 'Optima';
 }
 
 .sidenav {
@@ -41,7 +41,7 @@ body {
   padding: 8px 8px 8px 10px;
   text-decoration: none;
   font-size: 30px;
-  font-family: 'Courier New';
+  font-family: 'Optima';
   color: black;
   display: block;
 }
@@ -83,7 +83,7 @@ div.sticky {
 
 #yritys {
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
   transition: margin-left 0.5s;
   padding: 16px; 
   border-bottom: #b9db8f;
@@ -92,7 +92,7 @@ div.sticky {
 
 #hinnasto {
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
   transition: margin-left 0.5s;
   padding: 16px; 
   border-bottom: #b9db8f;
@@ -101,7 +101,7 @@ div.sticky {
 
 #palvelut {
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
   transition: margin-left 0.5s;
   padding: 16px; 
   border-bottom: #b9db8f;
@@ -114,7 +114,7 @@ h2
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Raleway';
+  font-family: 'Optima';
 }
 
 h3 {
@@ -122,7 +122,7 @@ h3 {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
 }
 
 h4 {
@@ -130,7 +130,7 @@ h4 {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
 }
 
 p {
@@ -138,7 +138,7 @@ p {
   margin: 0;
   padding: 16px;
   text-align: center;
-  font-family: 'Courier new';
+  font-family: 'Optima';
 }
 
 #banner {
