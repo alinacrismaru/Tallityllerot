@@ -178,7 +178,7 @@ p {
 }
 
 fieldset {
-	border: medium none !important;
+  border: medium none !important;
 	margin: 0 0 10px;
 	min-width: 100%;
 	padding: 0;
@@ -186,9 +186,9 @@ fieldset {
 }
 
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
-	width:100%;
-	border:1px solid #CCC;
-	background:#FFF;
+  width:100%;
+  border:1px solid #CCC;
+  background:#FFF;
 	margin:0 0 5px;
 	padding:10px;
 }
@@ -196,13 +196,13 @@ fieldset {
 #contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
 	-webkit-transition:border-color 0.3s ease-in-out;
 	-moz-transition:border-color 0.3s ease-in-out;
-	transition:border-color 0.3s ease-in-out;
-	border:1px solid #AAA;
+  transition:border-color 0.3s ease-in-out;
+  border:1px solid #AAA;
 }
 
 #contact textarea {
 	height:100px;
-	max-width:100%;
+  max-width:100%;
   resize:none;
 }
 
